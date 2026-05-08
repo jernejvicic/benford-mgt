@@ -1,0 +1,7 @@
+python src/experiment_01_signal.py \
+  --input data/multisocial.csv \
+  --output results/features/experiment_01_xlmr.csv \
+  --model xlm-roberta-base \
+  --languages sl cs sk en \
+  --max-samples-per-language-label 20 \
+  --device cpu

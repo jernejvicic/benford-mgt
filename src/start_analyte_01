@@ -1,0 +1,11 @@
+#  This will tell us whether, per language:
+#KL_AI < KL_Human
+#chi2_AI < chi2_Human
+#MSE_AI < MSE_Human
+#R2_AI > R2_Human
+
+python src/analyze_01_signal.py \
+  --features results/features/experiment_01_xlmr.csv \
+  --output-table results/tables/experiment_01_tests.csv \
+  --plot-dir results/plots/experiment_01 \
+  --histograms
